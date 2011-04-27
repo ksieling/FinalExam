@@ -1,4 +1,3 @@
-
 <?php
 
 /**
@@ -21,7 +20,7 @@
 
       public function defaultAction()
       {
-        header("Content-Type: text/hhttml;charset=utff3d-8");
+        header("Content-Type: text/html;charset=utf-8"); // corrected either utf-8 or text/html, can't remember which
         require_once APP_PATH . SLASH . 'views' . SLASH . 'index.phtml';
       }
 

@@ -10,6 +10,8 @@
  *
  */
 
+
+  // nothing wrong with this file as I saw it quite few times in use
   class ErrorController extends Zend_Controller_Action
   {
 
